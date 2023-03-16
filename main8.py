@@ -102,3 +102,6 @@ hay_btn.pack(padx=10, fill='x', expand=True, pady=10)
 window.mainloop()
 
 # pypi.org      => package
+
+# pip install ...       => install package
+# pip uninstall ...     => uninstall package
