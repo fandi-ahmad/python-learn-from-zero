@@ -72,5 +72,4 @@ while isRun:
 pygame.quit()
 
 
-# update asset
-# render ke display
+
