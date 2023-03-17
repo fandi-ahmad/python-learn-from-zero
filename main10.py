@@ -33,4 +33,27 @@ with open('data.txt', mode='r') as file:
     print(content, end='')
 
 
+# ===== WRITE EXTERNAL FILE =====
+# *ketika file data.txt tidak ada, maka akan membuat file baru dengan nama data.txt
+# with open ('data.txt', 'w', encoding='utf-8') as file:
+#     file.write('text pertama\n')
+
+# with open ('data.txt', 'a', encoding='utf-8') as file:
+#     file.write('text yang baru dari main10.py, tapi pake a\n')
+
+# with open ('data.txt', 'a', encoding='utf-8') as file:
+#     file.write('text baru yang ditimpa\n')
+
+# with open ('data.txt', 'a', encoding='utf-8') as file:
+#     file.write('apa lagi ya?\n')
+
+
+with open ('data.txt', 'r+', encoding='utf-8') as file:
+    file.write('baris 1 \n')
+    file.write('baris 2 \n')
+    data = file.read()
+    print(data)
+
+with open ('data.txt', 'r+', encoding='utf-8') as file:
+    file.write('baris 3 \n')
 

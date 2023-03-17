@@ -1,2 +1,2 @@
-ini text dari file data.txt
-baris kedua
+baris 3 
+baris 2 
