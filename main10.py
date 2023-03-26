@@ -26,7 +26,6 @@ print(file.readline(), end='')
 # close / menutup file yang dibuka
 file.close()
 
-
 # pakai cara ini supaya file yang dibuka tidak perlu di close
 with open('data.txt', mode='r') as file:
     content = file.readline()
